@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1, h2, h3, h4 , p , a{
+    font-family:  'Roboto', sans-serif;
+    
+
+}
+
+h1 , h2 , h3 , h4 ,a {
+    color: #042027;
+    letter-spacing: 1px;
+}
+
+.fondo{
+    
+    background-image: url(/huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-desktop.svg);
+    background-color: #edfbfe;
+    height: 85vh;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1140px;
+    
+}
+
+.container__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+
+}
+
+.container__menu__btn a{
+    font-weight: 700;
+    padding:10px 50px ;
+    background-color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 2px 2px 6px rgb(113, 107, 107);
+    
+
+}
+
+.section{
+    display: flex;
+    background-color:transparent;
+    justify-content: center;
+    align-items: center;
+    height: 68vh;
+
+   
+}
+
+.section__main__title{
+    font-size: 35px;
+    
+    line-height: 45px;
+}
+.section__main--parrafo{
+    margin-top: 30px;
+  line-height: 25px;
+    color: #738287;
+    width: 500px;  
+}
+
+.btn{
+    outline: none;
+    border: none;
+    background-color: #fe52c0;
+    padding: 15px 40px;
+     border-radius:25px 25px 25px 25px ;
+     color: white;
+    font-size: 9px;
+     margin-top: 25px;
+}
+.section__img img{
+    width:580px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.articulos{
+    display: flex;
+ 
+    margin-bottom: 30px;
+    height: 350px;
+    align-items: center;
+    padding-left: 100px;
+   padding-right: 30px;
+   justify-content: space-between;
+   box-shadow: 0px 0px 8px rgb(232, 228, 228);
+   border-radius: 20px;
+   
+}
+
+.subarticulo{
+    width: 430px;
+
+}
+
+.subarticulo h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.subarticulo p{
+     line-height: 23px;
+     color: #738287;
+}
+
+.articulos:first-child{
+    margin-top: 150px;
+}
+
+.cuadro{
+    padding-top: 45px;
+    margin-top: 130px;
+    width: 600px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgb(232, 228, 228);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 500;
+    background-color: white;
+
+}
+
+.cuadro h3{
+    text-align: center;
+    font-size: 28px;
+    
+    
+    
+}
+
+.cuadro .btn{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 250px;
+    height: 45px;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+footer{
+    background-color:#00252e;
+    padding-bottom: 100px;
+    margin-top: -80px;
+    
+   
+
+}
+
+footer div{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+footer article{
+    margin-top: 120px;
+    color:#a8bdc0;
+}
+
+
+footer article a{
+    text-decoration: none;
+    color: #a8bdc0;
+    display: block;
+    margin-bottom: 15px;
+    
+    
+}
+
+footer article p{
+    margin-top: 15px;
+    width: 330px;
+
+
+}
+
+footer article a:first-child{
+    margin-top: 55px;
+
+}
+
+.copy{
+    color: white;
+    margin-top: 80px;
+    color: #a8bdc0;
+    font-size: 10px;
+    margin-left: 1100px;
+    
+
+}
+
+footer article img{
+    margin-top: 55px;
+}
+
+
+    
